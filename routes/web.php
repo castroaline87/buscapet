@@ -14,5 +14,28 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('home');
 });
+
+Route::get('/animais-adocao', function () {
+    return view('adocao');
+});
+
+Route::get('/cadastro', function () {
+    return view('cadastro');
+});
+
+Route::get('/detalhes-adocao', function () {
+    return view('detalhes-adocao');
+});
+
+
+Route::get('/instrucoes', function () {
+    return view('instrucoes');
+});
+
+Route::get('/login', function () {
+    return view('login');
+});
+
+
