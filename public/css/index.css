@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&display=swap');
+
+/* icones do cabeçalho*/
+header .material-symbols-outlined {
+    font-size: 37px;
+}
+
+header {
+   background-color: #A0C8C3;
+}
+
+/* titulo do cabeçalho*/
+header h1 {
+    font-size: 155%;
+    color: #000;
+    font-family: 'Open Sans';
+}
+
+#rodape{
+    background-color: #A0C8C3;
+    
+}
+
+#logo {
+    width: 30px;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Cinzel', serif;
+    font-size: 125%;
+}
+
+.botao-login{
+    color: #000;
+    background-color: #EDEDED;
+    padding: 7px 13px;
+    border-radius: 20px;
+}
+
+#logo-logo{
+    font-size: 120%;
+    color: #282828;
+    text-align: center;
+}
+
+.titulo{
+    font-size: 160%;
+    color: #282828;
+    text-align: center;
+}
+
+#scroller-animais{
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.flex-scroller-btn-next,.flex-scroller-btn-back{
+    background: none;
+    color: #000;
+    font-size: 155px;
+    font-family: 'Cinzel', serif;
+}
+
+.flex-scroller-btn-back{
+    left: -70px;
+}
+
+.flex-scroller-btn-next{
+    right: -70px;
+}
+
+.botao-ver-mais{
+    color: #000;
+    background-color: #A0C8C3;
+    padding: 3px 10px;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+
+#link-instrucoes{
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    font-size: 16px;
+}
+
+.texto{
+    flex-basis: 300px;
+}
