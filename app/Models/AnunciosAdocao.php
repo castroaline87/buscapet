@@ -10,5 +10,14 @@ class AnunciosAdocao extends Model
     use HasFactory;
     protected $table = 'anuncio_adocao';
     public $timestamps = false;
+    public function usuario(): BelongsTo
+    {
+        return $this->belongsTo(Usuario::class, 'id_usuario');
+    }
+    public function fotos(): HasMany
+    {
+        return $this->hasMany(FotosAnuncios::class, 'id_anuncio_adocao');
+    }
 }
+
 

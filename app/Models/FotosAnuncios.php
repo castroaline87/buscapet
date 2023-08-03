@@ -10,5 +10,9 @@ class FotosAnuncios extends Model
     use HasFactory;
     protected $table = 'foto_anuncios';
     public $timestamps = false;
+    public function anuncio(): BelongsTo
+    {
+        return $this->belongsTo(AnuncioAdocao::class, 'id_anuncio_adocao');
+    }
 }
 
