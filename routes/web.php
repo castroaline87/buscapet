@@ -25,8 +25,8 @@ Route::get('/cadastro', function () {
     return view('cadastro');
 });
 
-Route::get('/detalhes-adocao', function () {
-    return view('detalhes-adocao');
+Route::get('/listagem-adocao', function () {
+    return view('listagem-adocao');
 });
 
 

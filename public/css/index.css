@@ -18,6 +18,7 @@ header h1 {
 
 #rodape{
     background-color: #A0C8C3;
+    margin-top: 5%;
     
 }
 
@@ -51,12 +52,14 @@ body {
     font-size: 160%;
     color: #282828;
     text-align: center;
+    margin-top: 2%;
 }
 
 #scroller-animais{
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 2%;
 }
 
 .flex-scroller-btn-next,.flex-scroller-btn-back{
@@ -81,6 +84,7 @@ body {
     border-radius: 20px;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 3%;
 
 
 }
@@ -91,8 +95,25 @@ body {
     margin-right: auto;
     width: 100%;
     font-size: 16px;
+    margin-top: 3%;
 }
 
 .texto{
     flex-basis: 300px;
+}
+
+#parcerias{
+    margin: auto;
+    width: 100%;
+    max-width: 900px;
+    margin-top: 5%;
+}
+
+#porte{
+    font-size: 20px;
+    margin: auto;
+    color: #282828;
+    width: 100%;
+    max-width: 1200px;
+    
 }
