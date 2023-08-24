@@ -71,33 +71,68 @@
 
 
     <div id="link-instrucoes" class="flex-row content-space-between content-center">
+
+        <div class="texto">
+
+            <div class="content-center">
+                esta em busca de um pet sitter ou quer ser um? clique aqui!
+            </div>
+
+            <a href="/dogsitter">
+
+
+                <img src="/imagens/petsitter.png" alt="">
+            </a>
+        </div>
+
         <div class="texto">
             <div class="content-center">
                 instruções do que fazer com animais de rua
             </div>
 
-            <img src="/imagens/animais de rua.png" alt="">
+            <a href="/instrucoes">
+                <img src="/imagens/animais de rua.png" alt="">
+
+            </a>
+
         </div>
 
         <div class="texto">
             <div class="content-center">
-                denuncia de maus tratos
+                quer doar um pet? clique aqui!
             </div>
-            <img src="/imagens/maus tratos.png" alt="">
+            <a href="/imagens/doarumpet">
+
+                <img src="/imagens/dog,cat.png" alt="">
+
+            </a>
+        </div>
+
+    </div>
+
+
+    <div id="denuncia" class="flex-row content-left content-center">
+
+
+        <div class="texto">
+            <a href="/denuncias">
+                <img src="/imagens/3.png" alt="">
+
+            </a>
+
+        </div>
+
+        <div class="seta">
+            <span class="material-symbols-outlined">
+                line_start_arrow_notch
+            </span>
         </div>
 
         <div class="texto">
-            <div class="content-center">
-                esta em busca de um dog sitter ou quer ser um ?
+            <div class="titulo content-center">
+                denuncie
             </div>
-            <img src="/imagens/dog sitter.png" alt="">
-        </div>
 
-        <div class="texto">
-            <div class="content-center">
-                quer doar? clique aqui!
-            </div>
-            <img src="/imagens/dog,cat.png" alt="">
         </div>
     </div>
 

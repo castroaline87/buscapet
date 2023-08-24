@@ -53,27 +53,27 @@
             <!-- imagens do carrossel -->
             <div class="flex-scroller-content gap-30">
                 <div class="flex-col gap-10">
-                    <img src="/imagens/1cachorro.png" alt="">
+                    <img src="/imagens/cachorrop1.png" alt="">
                 </div>
 
                 <div class="flex-col gap-10">
-                    <img src="/imagens/portegrande 4-1.png" alt="">
+                    <img src="/imagens/cachorrop2.png" alt="">
                 </div>
 
                 <div class="flex-col gap-10">
-                    <img src="/imagens/portegrande3.png" alt="">
+                    <img src="/imagens/cachorrop3.png" alt="">
                 </div>
 
                 <div class="flex-col gap-10">
-                    <img src="/imagens/portegrande4.png" alt="">
+                    <img src="/imagens/cachorrop4.png" alt="">
                 </div>
 
                 <div class="flex-col gap-10">
-                    <img src="/imagens/3cachorro.png" alt="">
+                    <img src="/imagens/cachorrop5.png" alt="">
                 </div>
 
                 <div class="flex-col gap-10">
-                    <img src="/imagens/portegrande.png" alt="">
+                    <img src="/imagens/cachorrop6.png" alt="">
                 </div>
             </div>
 
@@ -96,27 +96,27 @@
             <!-- imagens do carrossel -->
             <div class="flex-scroller-content gap-30">
                 <div class="flex-col gap-10">
-                    <img src="/imagens/1cachorro.png" alt="">
+                    <img src="/imagens/filhotecachorro1.png" alt="">
                 </div>
 
                 <div class="flex-col gap-10">
-                    <img src="/imagens/portegrande 4-1.png" alt="">
+                    <img src="/imagens/filhotecachorro2.png" alt="">
                 </div>
 
                 <div class="flex-col gap-10">
-                    <img src="/imagens/portegrande3.png" alt="">
+                    <img src="/imagens/filhotecachorro3.png" alt="">
                 </div>
 
                 <div class="flex-col gap-10">
-                    <img src="/imagens/portegrande4.png" alt="">
+                    <img src="/imagens/filhotecachorro4.png" alt="">
                 </div>
 
                 <div class="flex-col gap-10">
-                    <img src="/imagens/3cachorro.png" alt="">
+                    <img src="/imagens/filhotecachorro5.png" alt="">
                 </div>
 
                 <div class="flex-col gap-10">
-                    <img src="/imagens/portegrande.png" alt="">
+                    <img src="/imagens/filhotecachorro6.png" alt="">
                 </div>
             </div>
 
@@ -137,27 +137,27 @@
             <!-- imagens do carrossel -->
             <div class="flex-scroller-content gap-30">
                 <div class="flex-col gap-10">
-                    <img src="/imagens/1cachorro.png" alt="">
+                    <img src="/imagens/gato1.png" alt="">
                 </div>
 
                 <div class="flex-col gap-10">
-                    <img src="/imagens/portegrande 4-1.png" alt="">
+                    <img src="/imagens/gato2.png" alt="">
                 </div>
 
                 <div class="flex-col gap-10">
-                    <img src="/imagens/portegrande3.png" alt="">
+                    <img src="/imagens/2gato.png" alt="">
                 </div>
 
                 <div class="flex-col gap-10">
-                    <img src="/imagens/portegrande4.png" alt="">
+                    <img src="/imagens/4gato.png" alt="">
                 </div>
 
                 <div class="flex-col gap-10">
-                    <img src="/imagens/3cachorro.png" alt="">
+                    <img src="/imagens/6gato.png" alt="">
                 </div>
 
                 <div class="flex-col gap-10">
-                    <img src="/imagens/portegrande.png" alt="">
+                    <img src="/imagens/gato3.png" alt="">
                 </div>
             </div>
 
@@ -178,27 +178,27 @@
             <!-- imagens do carrossel -->
             <div class="flex-scroller-content gap-30">
                 <div class="flex-col gap-10">
-                    <img src="/imagens/1cachorro.png" alt="">
+                    <img src="/imagens/filhotegato1.png" alt="">
                 </div>
 
                 <div class="flex-col gap-10">
-                    <img src="/imagens/portegrande 4-1.png" alt="">
+                    <img src="/imagens/filhotegato2.png" alt="">
                 </div>
 
                 <div class="flex-col gap-10">
-                    <img src="/imagens/portegrande3.png" alt="">
+                    <img src="/imagens/filhotegato3.png" alt="">
                 </div>
 
                 <div class="flex-col gap-10">
-                    <img src="/imagens/portegrande4.png" alt="">
+                    <img src="/imagens/filhotegato4.png" alt="">
                 </div>
 
                 <div class="flex-col gap-10">
-                    <img src="/imagens/3cachorro.png" alt="">
+                    <img src="/imagens/filhotegato5.png" alt="">
                 </div>
 
                 <div class="flex-col gap-10">
-                    <img src="/imagens/portegrande.png" alt="">
+                    <img src="/imagens/filhotegato6.png" alt="">
                 </div>
             </div>
 

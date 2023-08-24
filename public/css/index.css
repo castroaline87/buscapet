@@ -6,7 +6,7 @@ header .material-symbols-outlined {
 }
 
 header {
-   background-color: #A0C8C3;
+    background-color: #A0C8C3;
 }
 
 /* titulo do cabeçalho*/
@@ -16,10 +16,10 @@ header h1 {
     font-family: 'Open Sans';
 }
 
-#rodape{
+#rodape {
     background-color: #A0C8C3;
     margin-top: 5%;
-    
+
 }
 
 #logo {
@@ -35,49 +35,50 @@ body {
     font-size: 125%;
 }
 
-.botao-login{
+.botao-login {
     color: #000;
     background-color: #EDEDED;
     padding: 7px 13px;
     border-radius: 20px;
 }
 
-#logo-logo{
+#logo-logo {
     font-size: 120%;
     color: #282828;
     text-align: center;
 }
 
-.titulo{
+.titulo {
     font-size: 160%;
     color: #282828;
     text-align: center;
     margin-top: 2%;
 }
 
-#scroller-animais{
+#scroller-animais {
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 2%;
 }
 
-.flex-scroller-btn-next,.flex-scroller-btn-back{
+.flex-scroller-btn-next,
+.flex-scroller-btn-back {
     background: none;
     color: #000;
     font-size: 155px;
     font-family: 'Cinzel', serif;
 }
 
-.flex-scroller-btn-back{
+.flex-scroller-btn-back {
     left: -70px;
 }
 
-.flex-scroller-btn-next{
+.flex-scroller-btn-next {
     right: -70px;
 }
 
-.botao-ver-mais{
+.botao-ver-mais {
     color: #000;
     background-color: #A0C8C3;
     padding: 3px 10px;
@@ -89,7 +90,7 @@ body {
 
 }
 
-#link-instrucoes{
+#link-instrucoes {
     max-width: 1300px;
     margin-left: auto;
     margin-right: auto;
@@ -98,22 +99,70 @@ body {
     margin-top: 3%;
 }
 
-.texto{
+.texto {
     flex-basis: 300px;
 }
 
-#parcerias{
+#parcerias {
     margin: auto;
     width: 100%;
     max-width: 900px;
     margin-top: 5%;
 }
 
-#porte{
+#porte {
     font-size: 20px;
     margin: auto;
     color: #282828;
     width: 100%;
     max-width: 1200px;
-    
+
+}
+
+#link-denuncias {
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    font-size: 16px;
+    margin-top: 3%;
+}
+
+#link-dogsitter {
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    font-size: 16px;
+    margin-top: 3%;
+}
+
+#link-doarumpet {
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    font-size: 16px;
+    margin-top: 3%;
+}
+#instruções{
+max-width: 1300px;
+margin-left: auto;
+margin-right: auto;
+width: 100%;
+font-size: 16px;
+margin-top: 3%;    
+}
+
+#denuncia{
+    background: none;
+    color: #000;
+    font-size: 30px;
+}
+
+.seta{
+    background: none;
+    color: #000;
+    font-size: 155px;
+    font-family: 'Cinzel', serif;
 }

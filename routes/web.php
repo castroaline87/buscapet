@@ -38,4 +38,14 @@ Route::get('/login', function () {
     return view('login');
 });
 
+Route::get('/denuncias', function () {
+    return view('denuncias');
+});
 
+Route::get('/dogsitter', function () {
+    return view('dogsitter');
+});
+
+Route::get('/doarumpet', function () {
+    return view('doarumpet');
+});
