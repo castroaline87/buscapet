@@ -32,4 +32,14 @@ Route::get('/instrucoes', [AnuncioController::class, 'instrucoes']);
 
 Route::get('/login', [UsuarioController::class, 'login']);
 
+Route::get('/denuncias', function () {
+    return view('denuncias');
+});
 
+Route::get('/dogsitter', function () {
+    return view('dogsitter');
+});
+
+Route::get('/doarumpet', function () {
+    return view('doarumpet');
+});
