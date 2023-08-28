@@ -1,6 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\AnuncioController;
+use App\Http\Controllers\UsuarioController;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,29 +15,21 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('home');
-});
 
-Route::get('/animais-adocao', function () {
-    return view('adocao');
-});
-
-Route::get('/cadastro', function () {
-    return view('cadastro');
-});
-
-Route::get('/detalhes-adocao', function () {
-    return view('detalhes-adocao');
-});
+Route::get('/', [AnuncioController::class, 'home']);
 
 
-Route::get('/instrucoes', function () {
-    return view('instrucoes');
-});
+Route::get('/animais-adocao', [AnuncioController::class, 'animais']);
 
-Route::get('/login', function () {
-    return view('login');
-});
+Route::get('/cadastro', [UsuarioController::class, 'cadastrar']);
+
+
+
+Route::get('/detalhes-adocao', [AnuncioController::class, 'detalhesAdocao']);
+
+
+Route::get('/instrucoes', [AnuncioController::class, 'instrucoes']);
+
+Route::get('/login', [UsuarioController::class, 'login']);
 
 
