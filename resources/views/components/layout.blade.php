@@ -40,33 +40,6 @@
         {{ $slot }}
     </div>
 
-    <div id="parcerias" class="flex-row content-space-between content-center">
-        <div class="posters">
-            <div class="content-center">
-
-                <a href="https://adotar.com.br/quem-somos.aspx" target="_blank">
-
-                    <img src="/imagens/adote.png" alt="">
-
-                </a>
-
-            </div>
-
-        </div>
-
-        <div class="posters">
-            <div class="content-center">
-
-                <a href="https://www.amigonaosecompra.com.br" target="_blank">
-                    <img src="/imagens/amigo.png" alt="">
-
-                </a>
-
-            </div>
-
-        </div>
-    </div>
-
     <footer id="rodape" class="flex-row content-center space-10">
         <div>BuscaPet 2023.Desenvolvido por: Bruna Vitória & Aline Castro</div>
     </footer>

@@ -2,9 +2,11 @@
 
     <h1 class="titulo">esta em busca de um pet sitter ou quer ser um?</h1>
 
-    <h2>um pet sitter “babá de pet”. Ou seja, é um profissional que cuida do seu filho de quatro patas em momentos de ausência.
-         Esse é um serviço muito versátil, que pode se adaptar a partir das necessidades do tutor e do animal.
-    </h2>
+    <div id="pet">
+        um pet sitter “babá de pet”. Ou seja, é um profissional que cuida do seu filho de quatro patas em momentos de ausência.
+        Esse é um serviço muito versátil, que pode se adaptar a partir das necessidades do tutor e do animal.
+    </div>
+
 
     <div id="sitter" class="flex-row content-space-between">
 
