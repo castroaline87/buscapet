@@ -8,17 +8,14 @@
     </div>
 
 
-    <div id="sitter" class="flex-row content-space-between">
+    <div id="link-dogsitter" class="flex-row content-space-between">
 
-        <div class="dogsitter">
+        <div class="dogs">
 
             <div class="flex-col gap-10">
 
-                <div class="content-center">
-                    Quer ser um pet sitter?
-                </div>
-
                 <a href="https://famyle.com/criar-perfil" target="_blank">
+                    <p>Quer ser um pet sitter?</p>
                     <img src="/imagens/querserdogsitter.png" alt="">
 
                 </a>
@@ -26,14 +23,13 @@
             </div>
 
         </div>
-        <div class="dogsitter1">
+
+        <div class="dogs">
+
             <div class="flex-col gap-10">
 
-                <div class="content-center">
-                    Quer um pet sitter para cuidar de seu pet?
-                </div>
-
                 <a href="https://famyle.com/criar-vaga/cuidados-com-pets/pet-sitter" target="_blank">
+                    <p>Quer um pet sitter para cuidar de seu pet?</p>
                     <img src="/imagens/buscandodogsitter.png" alt="">
 
                 </a>

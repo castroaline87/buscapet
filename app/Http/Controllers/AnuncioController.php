@@ -11,10 +11,10 @@ class AnuncioController extends Controller
 
 		
 		return view('home');
-	}
-    public function animais()
+	} 
+    public function listagemAdocao()
 	{
-		return view ('adocao');
+		return view ('listagem-adocao');
 	}
     public function detalhesAdocao()
 	{

@@ -135,6 +135,7 @@ body {
     width: 100%;
     font-size: 16px;
     margin-top: 3%;
+
 }
 
 #link-doarumpet {
@@ -162,14 +163,17 @@ body {
     font-family: 'Cinzel', serif;
 }
 
+
 #pet {
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
+    font-size: 16px;
+    text-align: center;
 }
 
-.card{
-    display:flex;
+.card {
+    display: flex;
     flex-direction: column;
     width: 250px;
     border: 1px solid black;
@@ -178,10 +182,32 @@ body {
     text-align: center;
 }
 
-.card h1{
+.card p {
     font-size: 120%;
 }
 
-a.card p{
+a.card p {
     color: #282828;
 }
+
+.dogs{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    margin-right:auto;
+    margin-left: auto;
+}
+
+a.dogs p {
+    color: #282828;
+    
+}
+
+.dogs p {
+    font-size: 120%;
+}
+
