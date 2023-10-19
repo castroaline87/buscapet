@@ -1,60 +1,21 @@
 <x-layout>
 
-
-
     <h1 class="titulo">animais para a adoção</h1>
 
     <div id="scroller-animais" class="flex-scroller">
 
         <!-- imagens do carrossel -->
         <div class="flex-scroller-content gap-30">
+            
+            @foreach($anuncios as $anuncio)
             <div class="flex-col gap-10">
-                <img src="/imagens/1cachorro.png" alt="">
-
+                <img class="img-pet" src="{{ $anuncio->fotos->first()?->imagem }}" alt="">
                 <div class="content-center">
-                    paschoal(porte médio) é um vira lata super dócil...
+                    {{ $anuncio->observacoes }}
                 </div>
             </div>
+            @endforeach
 
-            <div class="flex-col gap-10">
-                <img src="/imagens/2gato.png" alt="">
-
-                <div class="content-center">
-                    figma é uma gatinha super curiosa...
-                </div>
-            </div>
-
-            <div class="flex-col gap-10">
-                <img src="/imagens/3cachorro.png" alt="">
-
-                <div class="content-center">
-                    maximus (porte médio) é um vira lata muito divertido...
-                </div>
-            </div>
-
-            <div class="flex-col gap-10">
-                <img src="/imagens/4gato.png" alt="">
-
-                <div class="content-center">
-                    zeus é um gato quieto e carinhoso...
-                </div>
-            </div>
-
-            <div class="flex-col gap-10">
-                <img src="/imagens/5cachorro.png" alt="">
-
-                <div class="content-center">
-                    bilu é um filhote alegre e divertido...
-                </div>
-            </div>
-
-            <div class="flex-col gap-10">
-                <img src="/imagens/6gato.png" alt="">
-
-                <div class="content-center">
-                    garfild é um gato preguiçoso e dorminhoco...
-                </div>
-            </div>
         </div>
 
         <!-- setinhas -->
