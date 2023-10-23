@@ -2,9 +2,9 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Http\Request;
 use App\Models\Usuario;
 use App\Models\AnunciosAdocao;
+use Illuminate\Http\Request;
 
 class AnuncioController extends Controller
 {
@@ -21,9 +21,15 @@ class AnuncioController extends Controller
 		
 		return view('home');
 	} 
-    public function listagemAdocao()
+    public function listagemAdocao(Request $request)
 	{
-		return view ('listagem-adocao');
+		$especie = $request->input('especie');
+
+		$anuncios = AnunciosAdocao::all(); // pega todos os anuncios do banco
+
+		return view ('listagem-adocao', [
+			'anuncios' => $anuncios
+		]);
 	}
     public function detalhesAdocao()
 	{
@@ -37,4 +43,5 @@ class AnuncioController extends Controller
 			'usuarios' => $usuarios,
 		]);
 	}
+
 }
