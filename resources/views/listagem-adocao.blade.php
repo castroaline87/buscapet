@@ -1,40 +1,50 @@
 <x-layout>
 
+    <link rel="stylesheet" href="/css/listagem-adocao.css">
+
     <h1 class="titulo">animais para a adoção</h1>
 
     <form class="flex-row space-30 content-center" >
-    <select name="especie" id="">
-        <option value="" hidden selected disabled>Espécie</option>
-        <option>Gato</option>
-        <option>Cachorro</option>
-    </select>
-    
-    <select name="sexo" id="">
-        <option value="" hidden selected disabled>Sexo</option>
-        <option>Macho</option>
-        <option>Fêmea</option>
-    </select>
-    <select name="raca" id="">
-        <option value="" hidden selected disabled>Raça</option>
-        <option>Pedigree</option>
-        <option>Vira-lata</option>
-        <option>Ragdoll</option>
-    </select>
-    <select name="tamanho" id="">
-        <option value="" hidden selected disabled>Tamanho</option>
-        <option>Pequeno</option>
-        <option>Grande </option>
-       
-    </select>
-    <button>Buscar</button>
-</form>
 
+        <div class="flex-col">
+            <label for="">Espécie</label>
+            <select name="especie" id="">
+                <option value=""></option>
+                <option>Gato</option>
+                <option>Cachorro</option>
+            </select>
+        </div>
+        
+        <div class="flex-col">
+            <label for="">Sexo</label>
+            <select name="sexo" id="">
+                <option value=""></option>
+                <option>Macho</option>
+                <option>Fêmea</option>
+            </select>
+        </div>
 
+        <div class="flex-col">
+            <label for="">Raça</label>
+            <select name="raca" id="">
+                <option value=""></option>
+                <option>Pedigree</option>
+                <option>Vira-lata</option>
+                <option>Ragdoll</option>
+            </select>
+        </div>
 
-    
+        <div class="flex-col">
+            <label for="">Tamanho</label>
+            <select name="tamanho" id="">
+                <option value=""></option>
+                <option>Pequeno</option>
+                <option>Grande </option>        
+            </select>
+        </div>
 
-    
-    
+        <button>Buscar</button>
+    </form>
 
     <div class="flex-row space-30 content-center">
         @foreach($anuncios as $anuncio)

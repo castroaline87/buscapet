@@ -23,12 +23,26 @@ class AnuncioController extends Controller
 	} 
     public function listagemAdocao(Request $request)
 	{
+		$anuncios = AnunciosAdocao::query();
+
 		$especie = $request->input('especie');
-
-		$anuncios = AnunciosAdocao::all(); // pega todos os anuncios do banco
-
+		if($especie) {
+			$anuncios->where('especie', '=', $especie);
+		}
+		$sexo = $request->input('sexo');
+		if($sexo) {
+			$anuncios->where('sexo', '=', $sexo);
+		}
+		$raca = $request->input('raca');
+		if($raca) {
+			$anuncios->where('raca', 'LIKE', $raca);
+		}
+		$tamanho = $request->input('tamanho');
+		if($tamanho) {
+			$anuncios->where('tamanho', '=', $tamanho);
+		}
 		return view ('listagem-adocao', [
-			'anuncios' => $anuncios
+			'anuncios' => $anuncios->get()
 		]);
 	}
     public function detalhesAdocao()
