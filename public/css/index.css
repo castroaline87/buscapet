@@ -163,6 +163,12 @@ body {
     font-family: 'Cinzel', serif;
 }
 
+.img-pet {
+    width: 400px;
+    height: 250px;
+    object-fit: contain;
+    margin: auto;
+}
 
 #pet {
     max-width: 1200px;

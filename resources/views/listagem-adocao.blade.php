@@ -1,211 +1,59 @@
 <x-layout>
 
+    <link rel="stylesheet" href="/css/listagem-adocao.css">
+
     <h1 class="titulo">animais para a adoção</h1>
 
-    <div id="porte" class="flex-row content-bottom content-left">
-        Cachorros Porte Médio/Grande
+    <form class="flex-row space-30 content-center" >
 
-
-
-        <div id="scroller-animais" class="flex-scroller">
-
-            <!-- imagens do carrossel -->
-            <div class="flex-scroller-content gap-30">
-                <a href="/adoteja" class="flex-col gap-10">
-                    <img src="/imagens/1cachorro.png" alt="">
-                </a>
-
-                <a href="/adoteja" class="flex-col gap-10">
-                    <img src="/imagens/portegrande 4-1.png" alt="">
-                </a>
-
-                <a href="/adoteja" class="flex-col gap-10">
-                    <img src="/imagens/portegrande3.png" alt="">
-                </a>
-
-                <a href="/adoteja" class="flex-col gap-10">
-                    <img src="/imagens/portegrande4.png" alt="">
-                </a>
-
-                <a href="/adoteja" class="flex-col gap-10">
-                    <img src="/imagens/3cachorro.png" alt="">
-                </a>
-
-                <a href="/adoteja" class="flex-col gap-10">
-                    <img src="/imagens/portegrande.png" alt="">
-                </a>
-            </div>
-
-            <!-- setinhas -->
-            <span class="flex-scroller-btn-back">&lsaquo;</span>
-            <span class="flex-scroller-btn-next">&rsaquo;</span>
-
+        <div class="flex-col">
+            <label for="">Espécie</label>
+            <select name="especie" id="">
+                <option value=""></option>
+                <option>Gato</option>
+                <option>Cachorro</option>
+            </select>
         </div>
-    </div>
-
-
-    <div id="porte" class="flex-row content-bottom content-left">
-        Cachorros Porte Pequeno
-
-
-        <div id="scroller-animais" class="flex-scroller">
-
-            <!-- imagens do carrossel -->
-            <div class="flex-scroller-content gap-30">
-                <a href="/adoteja" class="flex-col gap-10">
-                    <img src="/imagens/cachorrop1.png" alt="">
-                </a>
-
-                <a href="/adoteja" class="flex-col gap-10">
-                    <img src="/imagens/cachorrop2.png" alt="">
-                </a>
-
-                <a href="/adoteja" class="flex-col gap-10">
-                    <img src="/imagens/cachorrop3.png" alt="">
-                </a>
-
-                <a href="/adoteja" class="flex-col gap-10">
-                    <img src="/imagens/cachorrop4.png" alt="">
-                </a>
-
-                <a href="/adoteja" class="flex-col gap-10">
-                    <img src="/imagens/cachorrop5.png" alt="">
-                </a>
-
-                <a href="/adoteja" class="flex-col gap-10">
-                    <img src="/imagens/cachorrop6.png" alt="">
-                </a>
-            </div>
-
-
-
-            <!-- setinhas -->
-            <span class="flex-scroller-btn-back">&lsaquo;</span>
-            <span class="flex-scroller-btn-next">&rsaquo;</span>
+        
+        <div class="flex-col">
+            <label for="">Sexo</label>
+            <select name="sexo" id="">
+                <option value=""></option>
+                <option>Macho</option>
+                <option>Fêmea</option>
+            </select>
         </div>
 
-    </div>
-
-
-    <div id="porte" class="flex-row content-bottom content-left">
-        Cachorros Filhotes
-
-
-        <div id="scroller-animais" class="flex-scroller">
-
-            <!-- imagens do carrossel -->
-            <div class="flex-scroller-content gap-30">
-                <a href="/adoteja" class="flex-col gap-10">
-                    <img src="/imagens/filhotecachorro1.png" alt="">
-                </a>
-
-                <a href="/adoteja" class="flex-col gap-10">
-                    <img src="/imagens/filhotecachorro2.png" alt="">
-                </a>
-
-                <a href="/adoteja" class="flex-col gap-10">
-                    <img src="/imagens/filhotecachorro3.png" alt="">
-                </a>
-
-                <a href="/adoteja" class="flex-col gap-10">
-                    <img src="/imagens/filhotecachorro4.png" alt="">
-                </a>
-
-                <a href="/adoteja" class="flex-col gap-10">
-                    <img src="/imagens/filhotecachorro5.png" alt="">
-                </a>
-
-                <a href="/adoteja" class="flex-col gap-10">
-                    <img src="/imagens/filhotecachorro6.png" alt="">
-                </a>
-            </div>
-
-            <!-- setinhas -->
-            <span class="flex-scroller-btn-back">&lsaquo;</span>
-            <span class="flex-scroller-btn-next">&rsaquo;</span>
-
+        <div class="flex-col">
+            <label for="">Raça</label>
+            <select name="raca" id="">
+                <option value=""></option>
+                <option>Pedigree</option>
+                <option>Vira-lata</option>
+                <option>Ragdoll</option>
+            </select>
         </div>
-    </div>
 
-    <div id="porte" class="flex-row content-bottom content-left">
-        Gatos Adulto
-
-
-
-        <div id="scroller-animais" class="flex-scroller">
-
-            <!-- imagens do carrossel -->
-            <div class="flex-scroller-content gap-30">
-                <a href="/adoteja" class="flex-col gap-10">
-                    <img src="/imagens/gato1.png" alt="">
-                </a>
-
-                <a href="/adoteja" class="flex-col gap-10">
-                    <img src="/imagens/gato2.png" alt="">
-                </a>
-
-                <a href="/adoteja" class="flex-col gap-10">
-                    <img src="/imagens/2gato.png" alt="">
-                </a>
-
-                <a href="/adoteja" class="flex-col gap-10">
-                    <img src="/imagens/4gato.png" alt="">
-                </a>
-
-                <a href="/adoteja" class="flex-col gap-10">
-                    <img src="/imagens/6gato.png" alt="">
-                </a>
-
-                <a href="/adoteja" class="flex-col gap-10">
-                    <img src="/imagens/gato3.png" alt="">
-                </a>
-            </div>
-
-            <!-- setinhas -->
-            <span class="flex-scroller-btn-back">&lsaquo;</span>
-            <span class="flex-scroller-btn-next">&rsaquo;</span>
-
+        <div class="flex-col">
+            <label for="">Tamanho</label>
+            <select name="tamanho" id="">
+                <option value=""></option>
+                <option>Pequeno</option>
+                <option>Grande </option>        
+            </select>
         </div>
-    </div>
 
-    <div id="porte" class="flex-row content-bottom content-left">
-        Gatos Filhotes
+        <button>Buscar</button>
+    </form>
 
-
-
-        <div id="scroller-animais" class="flex-scroller">
-
-            <!-- imagens do carrossel -->
-            <div class="flex-scroller-content gap-30">
-                <a href="/adoteja" class="flex-col gap-10">
-                    <img src="/imagens/filhotegato1.png" alt="">
-                </a>
-
-                <a href="/adoteja" class="flex-col gap-10">
-                    <img src="/imagens/filhotegato2.png" alt="">
-                </a>
-
-                <a href="/adoteja" class="flex-col gap-10">
-                    <img src="/imagens/filhotegato3.png" alt="">
-                </a>
-
-                <a href="/adoteja" class="flex-col gap-10">
-                    <img src="/imagens/filhotegato4.png" alt="">
-                </a>
-
-                <a href="/adoteja" class="flex-col gap-10">
-                    <img src="/imagens/filhotegato5.png" alt="">
-                </a>
-
-                <a href="/adoteja" class="flex-col gap-10">
-                    <img src="/imagens/filhotegato6.png" alt="">
-                </a>
-            </div>
-
-            <!-- setinhas -->
-            <span class="flex-scroller-btn-back">&lsaquo;</span>
-            <span class="flex-scroller-btn-next">&rsaquo;</span>
-
+    <div class="flex-row space-30 content-center">
+        @foreach($anuncios as $anuncio)
+        <div class="flex-col gap-10">
+            <img src="{{ $anuncio->fotos->first()?->imagem }}" alt="">
+            <span>{{ $anuncio->observacoes }}</span>
         </div>
+        @endforeach
     </div>
+    
+
 </x-layout>
