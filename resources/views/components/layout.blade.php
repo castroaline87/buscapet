@@ -34,9 +34,10 @@
             login
 
         </a>
-    </header>
-    <div class="flex-col grow space-30">
 
+    </header>
+
+    <div class="flex-col grow space-30">
         {{ $slot }}
     </div>
 

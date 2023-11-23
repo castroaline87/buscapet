@@ -10,6 +10,10 @@ class UsuarioController extends Controller
 	{
 		return view ('cadastro');
 	}
+	public function adocao()
+	{
+		return view ('adoteja');
+	}
     public function login ()
 	{
 		return view ('login');

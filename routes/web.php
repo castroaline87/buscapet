@@ -16,6 +16,8 @@ Route::get('/instrucoes', [AnuncioController::class, 'instrucoes']);
 
 Route::get('/login', [UsuarioController::class, 'login']);
 
+Route::get('/adoteja', [UsuarioController::class, 'adocao']);
+
 Route::get('/denuncias', function () {
     return view('denuncias');
 });

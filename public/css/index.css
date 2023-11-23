@@ -193,7 +193,6 @@ a.card p {
 .dogs{
     display: flex;
     flex-direction: column;
-    width: 250px;
     border: 1px solid black;
     padding: 20px;
     border-radius: 15px;
@@ -201,6 +200,11 @@ a.card p {
     margin-right:auto;
     margin-left: auto;
 }
+
+.dogs a {
+text-decoration: none;
+color: #000;
+} 
 
 a.dogs p {
     color: #282828;
@@ -211,3 +215,6 @@ a.dogs p {
     font-size: 120%;
 }
 
+.flex-scroller a{
+    color:#000;
+}
