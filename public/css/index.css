@@ -224,3 +224,21 @@ a.dogs p {
 .flex-scroller a{
     color:#000;
 }
+
+.instrucoes{
+    max-width: 1200px;
+    margin: auto;
+    text-align: left;
+}
+
+.maps{
+    height: 40px;
+
+}
+
+#cabecalhodireito{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+

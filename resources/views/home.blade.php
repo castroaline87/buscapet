@@ -46,13 +46,13 @@
                 ...</p>
         </a>
 
-        <a href="/imagens/doarumpet" class="card">
+        <a target="_blank" href="/login" class="card">
             <img src="/imagens/cat,dog.png" alt="">
             <h1></h1>
             <p>quer doar um pet? clique aqui!...</p>
         </a>
 
-        <a href="/denuncias" class="card">
+        <a target="_blank" href="https://www.webdenuncia.org.br/depa" class="card">
             <img src="/imagens/denuncia de maus tratos.png" alt="">
             <h1></h1>
             <p>denuncias de maus tratos. clique aqui!...</p>

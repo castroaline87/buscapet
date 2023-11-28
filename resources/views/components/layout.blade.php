@@ -29,12 +29,19 @@
             </a>
         </div>
 
-        <!-- botão -->
-        <a href="" class="botao-login">
-            login
+        <div id="cabecalhodireito">
+            
+            <a href="/">
+                <img class="maps" src="/imagens/local.svg" alt="">
+            </a>
 
-        </a>
 
+            <!-- botão -->
+            <a href="/login" class="botao-login">
+                login
+
+            </a>
+        </div>
     </header>
 
     <div class="flex-col grow space-30">
