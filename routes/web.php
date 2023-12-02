@@ -10,7 +10,7 @@ Route::get('/listagem-adocao', [AnuncioController::class, 'listagemAdocao']);
 
 Route::get('/cadastro', [UsuarioController::class, 'cadastrar']);
 
-Route::get('/detalhes-adocao', [AnuncioController::class, 'detalhesAdocao']);
+Route::get('/detalhes-adocao/{id}', [AnuncioController::class, 'detalhesAdocao']);
 
 Route::get('/instrucoes', [AnuncioController::class, 'instrucoes']);
 

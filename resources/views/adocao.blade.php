@@ -40,8 +40,8 @@
         <div class="flex-scroller-content gap-30">
             
             @foreach($outrosAnuncios as $anuncio)
-            <a class="flex-col gap-10" href="/detalhes-adocao?id={{ $anuncio->id }}">
-                <img class="img-pet" src="{{ $anuncio->fotos->first()?->imagem }}" alt="">
+            <a class="flex-col gap-10" href="/detalhes-adocao/{{ $anuncio->id }}">
+                <img class="img-pet" src="{{ $anuncio->fotoPrincipal() }}" alt="">
                 <div class="content-center">
                     {{ $anuncio->observacoes }}
                 </div>

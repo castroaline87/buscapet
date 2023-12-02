@@ -50,12 +50,10 @@ class AnuncioController extends Controller
 		]);
 	}
 
-    public function detalhesAdocao(Request $request)
+    public function detalhesAdocao(int $id)
 	{
-		$idAnuncio = $request->input('id');
-		$anuncio = AnunciosAdocao::find($idAnuncio);
-
-		$outrosAnuncios = AnunciosAdocao::where('id', '<>', $idAnuncio)->get();
+		$anuncio = AnunciosAdocao::find($id);
+		$outrosAnuncios = AnunciosAdocao::where('id', '<>', $id)->get();
 
 		return view ('adocao', [
 			'anuncio' => $anuncio,

@@ -60,12 +60,15 @@
 
     <div class="flex-row space-30 content-center">
         @foreach($anuncios as $anuncio)
-        <div class="flex-col gap-10">
-            <img src="{{ $anuncio->fotos->first()?->imagem }}" alt="">
+        <a class="flex-col gap-10 a-pet" href="/detalhes-adocao/{{ $anuncio->id }}">
+            <img src="{{ $anuncio->fotoPrincipal() }}" alt="">
             <span>{{ $anuncio->observacoes }}</span>
-        </div>
+        </a>
         @endforeach
     </div>
     
+    <div class="flex-row content-center">
+        <a href="/" class="btn-alt">Voltar</a>
+    </div>
 
 </x-layout>
