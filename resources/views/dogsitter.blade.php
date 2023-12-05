@@ -40,4 +40,8 @@
         </div>
     </div>
 
+    <div class="flex-row center">
+        <a href="/" class="btn-alt">Voltar</a>
+    </div>
+
 </x-layout>

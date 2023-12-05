@@ -2,7 +2,6 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Usuario;
 use App\Models\AnunciosAdocao;
 use Illuminate\Http\Request;
 
@@ -10,52 +9,65 @@ class AnuncioController extends Controller
 {
     public function home()
 	{	
-		$anuncios = AnunciosAdocao::all(); // pega todos os anuncios do banco
+		$anuncios = AnunciosAdocao::all();
+
 		return view('home', [
 			'anuncios' => $anuncios
 		]);
 	}
+
     public function animais()
 	{
-
-		
 		return view('home');
-	} 
+	}
+
     public function listagemAdocao(Request $request)
 	{
 		$anuncios = AnunciosAdocao::query();
 
-		$especie = $request->input('especie');
-		if($especie) {
+		if($especie = $request->input('especie')) {
 			$anuncios->where('especie', '=', $especie);
 		}
-		$sexo = $request->input('sexo');
-		if($sexo) {
+
+		if($sexo = $request->input('sexo')) {
 			$anuncios->where('sexo', '=', $sexo);
 		}
-		$raca = $request->input('raca');
-		if($raca) {
+
+		if($raca = $request->input('raca')) {
 			$anuncios->where('raca', 'LIKE', $raca);
 		}
-		$tamanho = $request->input('tamanho');
-		if($tamanho) {
+
+		if($tamanho = $request->input('tamanho')) {
 			$anuncios->where('tamanho', '=', $tamanho);
 		}
+
 		return view ('listagem-adocao', [
-			'anuncios' => $anuncios->get()
+			'anuncios' => $anuncios->get(),
+			'especies' => AnunciosAdocao::especiesCadastradas(),
+			'sexos' => AnunciosAdocao::sexosCadastrados(),
+			'racas' => AnunciosAdocao::racasCadastradas(),
+			'tamanhos' => AnunciosAdocao::tamanhosCadastrados(),
 		]);
 	}
-    public function detalhesAdocao()
+
+    public function detalhesAdocao(int $id)
 	{
-		return view ('adocao');
+		$anuncio = AnunciosAdocao::find($id);
+		$outrosAnuncios = AnunciosAdocao::where('id', '<>', $id)->get();
+
+		return view ('adocao', [
+			'anuncio' => $anuncio,
+			'outrosAnuncios' => $outrosAnuncios,
+		]);
 	}
+
     public function instrucoes()
 	{
-		$usuarios = Usuario::all(); // pega todos os usuarios do banco
-
-		return view ('instrucoes', [
-			'usuarios' => $usuarios,
-		]);
+		return view ('instrucoes');
 	}
 
+	public function pertoDeMim()
+	{
+		return view('perto-de-mim');
+	}
 }

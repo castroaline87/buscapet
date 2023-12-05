@@ -2,3 +2,11 @@ label {
     font-size: 80%;
     font-weight: bold;
 }
+
+.a-pet {
+    transition: 0.25s;
+}
+
+.a-pet:hover {
+    transform: scale(1.05);
+}
